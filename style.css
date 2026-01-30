@@ -1,1 +1,4 @@
-
+/* OVERRIDE a Bootstrap rule */
+.text-primary {
+    color: orchid !important;
+}
