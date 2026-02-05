@@ -1,4 +1,8 @@
-/* OVERRIDE a Bootstrap rule */
-.text-primary {
-    color: orchid !important;
+/* CSS VARIABLES let us OVERRIDE the Bootstrap color palette:
+ * primary, secondary, success, danger, warning, info, light, dark
+ * (need to specify our color's RGB value in both formats below)
+*/
+:root {
+  --bs-primary: rgb(255, 0, 195) !important;
+  --bs-primary-rgb: 255, 0, 195 !important;
 }
