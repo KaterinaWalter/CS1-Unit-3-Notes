@@ -3,6 +3,6 @@
  * (need to specify our color's RGB value in both formats below)
 */
 :root {
-  --bs-primary: rgb(255, 0, 195) !important;
-  --bs-primary-rgb: 255, 0, 195 !important;
+  --bs-primary: rgb(255, 90, 233) !important;
+  --bs-primary-rgb: 255, 90, 233 !important;
 }
