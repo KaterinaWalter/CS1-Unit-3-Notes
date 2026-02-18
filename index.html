@@ -19,7 +19,8 @@
   </div>
 
   <div class="container">
-    <p class="text-info bg-dark bg-gradient lead">We linked our HTML page to Bootstrap's CSS code, so we can easily borrow their styling rules, just by attaching certain <span class="mark">CLASS NAMES</span> 
+    <p class="text-info bg-dark bg-gradient lead">We linked our HTML page to Bootstrap's CSS code, so we can easily borrow their styling rules, just by attaching certain 
+    <span class="mark">CLASS NAMES</span> 
     to any element we want to style.</p>
   </div>
 
@@ -37,6 +38,89 @@
 
   </div>
 
+  <hr>
+
+  <div class="container-fluid">
+    <h2>Reusable UI Components</h2>
+    <p>Bootstrap provides code snippets that we can use in our own pages for common things like buttons, pop-up windows (modals), cards, slideshows (carousels)...</p>
+  </div>
+
+  <div class="container">
+    <h3>BOOTSTRAP BUTTONS:</h3>
+    <button class="btn btn-primary"> Primary color </button>
+    <button class="btn btn-secondary"> Secondary color </button>
+    <button class="btn btn-outline-dark"> Outline (any color) </button>
+    <button class="btn btn-danger btn-sm"> Smaller </button>
+    <button class="btn btn-success btn-lg"> Larger </button>
+  </div>
+
+  <div class="container">
+    <h3>BOOTSTRAP CARDS:</h3>
+    <p>For more complex UI components like cards, you can go to the <a href="https://getbootstrap.com"> Bootstrap Website </a> and copy their starter code snippets.
+    </p>
+
+    <div class="card">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/5/58/AcetoFive.JPG" class="card-img-top" alt="Image of playing cards">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="container">
+    <h3>BOOTSTRAP MODALS:</h3>
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
+      Launch demo modal
+    </button>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal (popup window)</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        We borrowed this from Bootstrap! No need to write all this code from scratch, just change the plain text.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Stay!</button>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+
+  <div class="container">
+    <h3>BOOTSTRAP CAROUSELS:</h3>
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://m.media-amazon.com/images/I/71DoQnxNwQL._AC_UF894,1000_QL80_.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://d3q79wa8h7wjl9.cloudfront.net/wp-content/uploads/2018/12/Carousel3.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://images.fineartamerica.com/images-medium-large-5/fairy-carousel-horse-i-kristia-adams.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
 
 </body>
 </html>
