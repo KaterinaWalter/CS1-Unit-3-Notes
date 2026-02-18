@@ -5,5 +5,7 @@
 :root {
   --bs-primary: rgb(255, 90, 233) !important;
   --bs-primary-rgb: 255, 90, 233 !important;
+  --bs-primary-bg: rgb(255, 90, 233) !important;
+  --bs-primary-bg-subtle: rgb(255, 188, 246) !important;
 }
 
